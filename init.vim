@@ -12,3 +12,13 @@ endif
 call plug#begin()
 
 call plug#end()
+
+" Plugins Configuration
+for f in split(glob('~/.config/nvim/plugins.d/*.vim'), '\n')
+    execute 'source' f
+endfor
+
+" Global Configuration
+for f in split(glob('~/.config/nvim/config.d/*.vim'), '\n')
+    execute 'source' f
+endfor
