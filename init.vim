@@ -14,6 +14,10 @@ call plug#begin()
     " everforest
     Plug 'sainnhe/everforest'
 
+    " fzf
+    Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+    Plug 'junegunn/fzf.vim'
+
     " vim-airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'

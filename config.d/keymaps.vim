@@ -29,3 +29,7 @@ imap <M-l> <Right>
 
 " Save And Exit: Alt + Esc
 nmap <M-ESC> :wqa<CR>
+
+" Open FZF: Alt + F/G
+nmap <silent> <M-f> :Files<CR>
+nmap <silent> <M-g> :GFiles<CR>
