@@ -18,6 +18,9 @@ call plug#begin()
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
 
+    " vim-gitgutter
+    Plug 'airblade/vim-gitgutter'
+
 call plug#end()
 
 " Plugins Configuration
