@@ -11,6 +11,9 @@ endif
 " Plugins Load Section
 call plug#begin()
 
+    " coc.nvim
+    Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+
     " everforest
     Plug 'sainnhe/everforest'
 
