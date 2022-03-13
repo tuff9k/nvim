@@ -11,6 +11,9 @@ endif
 " Plugins Load Section
 call plug#begin()
 
+    " everforest
+    Plug 'sainnhe/everforest'
+
 call plug#end()
 
 " Plugins Configuration
