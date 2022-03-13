@@ -18,6 +18,12 @@ call plug#begin()
     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
     Plug 'junegunn/fzf.vim'
 
+    " NERDTree
+    Plug 'preservim/nerdtree' |
+        \ Plug 'Xuyuanp/nerdtree-git-plugin' |
+        \ Plug 'ryanoasis/vim-devicons' |
+        \ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
     " vim-airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'

@@ -33,3 +33,6 @@ nmap <M-ESC> :wqa<CR>
 " Open FZF: Alt + F/G
 nmap <silent> <M-f> :Files<CR>
 nmap <silent> <M-g> :GFiles<CR>
+
+" Open NERDTree: Alt + N
+nmap <silent> <M-n> :NERDTreeToggle<CR>
