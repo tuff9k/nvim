@@ -42,3 +42,6 @@ nmap <silent> <M-/> gcc
 
 " Comment Out Current Paragraph: Alt + \
 nmap <silent> <M-\> gcap
+
+" Run Glow For Current Buffer: Alt + P
+nmap <silent> <M-p> :Glow<CR>
