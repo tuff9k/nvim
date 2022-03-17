@@ -36,3 +36,9 @@ nmap <silent> <M-g> :GFiles<CR>
 
 " Open NERDTree: Alt + N
 nmap <silent> <M-n> :NERDTreeToggle<CR>
+
+" Comment Out Current Line: Alt + /
+nmap <silent> <M-/> gcc
+
+" Comment Out Current Paragraph: Alt + \
+nmap <silent> <M-\> gcap

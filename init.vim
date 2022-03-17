@@ -31,6 +31,9 @@ call plug#begin()
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
 
+    " vim-commentary
+    Plug 'tpope/vim-commentary'
+
     " vim-gitgutter
     Plug 'airblade/vim-gitgutter'
 
