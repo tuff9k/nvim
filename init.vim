@@ -24,6 +24,9 @@ call plug#begin()
     " glow
     Plug 'ellisonleao/glow.nvim'
 
+    " indentline
+    Plug 'Yggdroot/indentLine'
+
     " NERDTree
     Plug 'preservim/nerdtree' |
         \ Plug 'Xuyuanp/nerdtree-git-plugin' |
