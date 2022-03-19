@@ -30,6 +30,9 @@ call plug#begin()
         \ Plug 'ryanoasis/vim-devicons' |
         \ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
+    " tagbar
+    Plug 'majutsushi/tagbar'
+
     " vim-airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'

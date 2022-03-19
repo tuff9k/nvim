@@ -45,3 +45,6 @@ nmap <silent> <M-\> gcap
 
 " Run Glow For Current Buffer: Alt + P
 nmap <silent> <M-p> :Glow<CR>
+
+" Toggle Tagbar Window: Alt + T
+nmap <silent> <M-t> :TagbarToggle<CR>
