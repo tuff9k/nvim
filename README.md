@@ -11,3 +11,7 @@ This is my `NVim` configuration
 * `ctags` - tagfile generator
 * `glow` - console markdown render
 * `node` - javascript engine (with package manager `npm`)
+
+# Language Server Extensions
+
+* `:CocInstall coc-html`

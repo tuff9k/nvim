@@ -46,6 +46,12 @@ call plug#begin()
     " vim-gitgutter
     Plug 'airblade/vim-gitgutter'
 
+    " Language Extensions
+
+    " HTML
+    Plug 'hail2u/vim-css3-syntax'
+    Plug 'gko/vim-coloresque'
+
 call plug#end()
 
 " Plugins Configuration
