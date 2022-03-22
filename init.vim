@@ -52,6 +52,9 @@ call plug#begin()
     Plug 'hail2u/vim-css3-syntax'
     Plug 'gko/vim-coloresque'
 
+    " JavaScript
+    Plug 'jelera/vim-javascript-syntax'
+
 call plug#end()
 
 " Plugins Configuration

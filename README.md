@@ -15,3 +15,4 @@ This is my `NVim` configuration
 # Language Server Extensions
 
 * `:CocInstall coc-html`
+* `:CocInstall coc-tsserver`
