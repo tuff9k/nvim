@@ -48,6 +48,10 @@ call plug#begin()
 
     " Language Extensions
 
+    " Elm
+
+    Plug 'elmcast/elm-vim'
+
     " HTML
     Plug 'hail2u/vim-css3-syntax'
     Plug 'gko/vim-coloresque'

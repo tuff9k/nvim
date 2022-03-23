@@ -16,3 +16,4 @@ This is my `NVim` configuration
 
 * `:CocInstall coc-html`
 * `:CocInstall coc-tsserver`
+* `$ npm i -D elm elm-format elm-test @elm-tooling/elm-language-server`
